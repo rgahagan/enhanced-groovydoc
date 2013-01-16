@@ -1,0 +1,436 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ClassGraph	ClassGraph.java	/^    public ClassGraph(RootDoc root, OptionProvider optionProvider, Doc contextDoc) {$/;"	m	class:ClassGraph
+ClassGraph	ClassGraph.java	/^class ClassGraph {$/;"	c
+ClassGraphHack	ContextMatcher.java	/^	public ClassGraphHack(RootDoc root, OptionProvider optionProvider) throws IOException {$/;"	m	class:ContextMatcher.ClassGraphHack
+ClassGraphHack	ContextMatcher.java	/^    private static class ClassGraphHack extends ClassGraph {$/;"	c	class:ContextMatcher
+ClassInfo	ClassGraph.java	/^    protected Map<String, ClassInfo> classnames = new HashMap<String, ClassInfo>();$/;"	m	class:ClassGraph
+ClassInfo	ClassInfo.java	/^    ClassInfo(boolean p, boolean h) {$/;"	m	class:ClassInfo
+ClassInfo	ClassInfo.java	/^class ClassInfo {$/;"	c
+ClassMatcher	ClassMatcher.java	/^public interface ClassMatcher {$/;"	i
+ClassMatcher	View.java	/^    Map<ClassMatcher, List<String[]>> optionOverrides = new LinkedHashMap<ClassMatcher, List<String[]>>();$/;"	f	class:View
+ContextMatcher	ContextMatcher.java	/^    public ContextMatcher(RootDoc root, Pattern pattern, Options options, boolean keepParentHide) throws IOException {$/;"	m	class:ContextMatcher
+ContextMatcher	ContextMatcher.java	/^public class ContextMatcher implements ClassMatcher {$/;"	c
+ContextView	ContextView.java	/^    public ContextView(String outputFolder, ClassDoc cd, RootDoc root, Options parent)$/;"	m	class:ContextView
+ContextView	ContextView.java	/^public class ContextView implements OptionProvider {$/;"	c
+DEFAULT_EXTERNAL_APIDOC	Options.java	/^    protected static final String DEFAULT_EXTERNAL_APIDOC = "http:\/\/java.sun.com\/j2se\/1.4.2\/docs\/api\/";$/;"	f	class:Options
+DevNullWriter	ContextMatcher.java	/^    private static class DevNullWriter extends Writer {$/;"	c	class:ContextMatcher
+FILE_SEPARATOR	ClassGraph.java	/^    protected static final char FILE_SEPARATOR = '\/';$/;"	f	class:ClassGraph
+FieldRelationInfo	ClassGraph.java	/^	public FieldRelationInfo(ClassDoc cd, boolean multiple) {$/;"	m	class:ClassGraph.FieldRelationInfo
+FieldRelationInfo	ClassGraph.java	/^    private static class FieldRelationInfo {$/;"	c	class:ClassGraph
+HIDE_OPTIONS	ContextView.java	/^    private static final String[] HIDE_OPTIONS = new String[] { "-hide" };$/;"	f	class:ContextView	file:
+InterfaceMatcher	InterfaceMatcher.java	/^    public InterfaceMatcher(RootDoc root, Pattern pattern) {$/;"	m	class:InterfaceMatcher
+InterfaceMatcher	InterfaceMatcher.java	/^public class InterfaceMatcher implements ClassMatcher {$/;"	c
+OptionProvider	OptionProvider.java	/^public interface OptionProvider {$/;"	i
+Options	Options.java	/^    Options() {$/;"	m	class:Options
+Options	Options.java	/^public class Options implements Cloneable, OptionProvider {$/;"	c
+PackageMatcher	PackageMatcher.java	/^    public PackageMatcher(PackageDoc packageDoc) {$/;"	m	class:PackageMatcher
+PackageMatcher	PackageMatcher.java	/^public class PackageMatcher implements ClassMatcher {$/;"	c
+PackageView	PackageView.java	/^    public PackageView(String outputFolder, PackageDoc pd, RootDoc root, OptionProvider parent) {$/;"	m	class:PackageView
+PackageView	PackageView.java	/^public class PackageView implements OptionProvider {$/;"	c
+Pattern	Options.java	/^    Map<Pattern, String> apiDocMap;$/;"	f	class:Options
+PatternMatcher	PatternMatcher.java	/^    public PatternMatcher(Pattern pattern) {$/;"	m	class:PatternMatcher
+PatternMatcher	PatternMatcher.java	/^public class PatternMatcher implements ClassMatcher {$/;"	c
+RelationPattern	ClassInfo.java	/^    Map<String, RelationPattern> relatedClasses = new HashMap<String, RelationPattern>();$/;"	m	class:ClassInfo
+RelationPattern	RelationPattern.java	/^    public RelationPattern(RelationDirection defaultDirection) {$/;"	m	class:RelationPattern
+RelationPattern	RelationPattern.java	/^public class RelationPattern {$/;"	c
+RelationType	ClassGraph.java	/^    public static Map<RelationType, String> associationMap = new HashMap<RelationType, String>();$/;"	f	class:ClassGraph
+String	ClassGraph.java	/^    protected Map<String, ClassInfo> classnames = new HashMap<String, ClassInfo>();$/;"	f	class:ClassGraph
+String	ClassGraph.java	/^    public static Map<RelationType, String> associationMap = new HashMap<RelationType, String>();$/;"	m	class:ClassGraph
+String	ClassInfo.java	/^    Map<String, RelationPattern> relatedClasses = new HashMap<String, RelationPattern>();$/;"	f	class:ClassInfo
+String	View.java	/^    Map<ClassMatcher, List<String[]>> optionOverrides = new LinkedHashMap<ClassMatcher, List<String[]>>();$/;"	m	class:View
+StringUtil	StringUtil.java	/^class StringUtil {$/;"	c
+SubclassMatcher	SubclassMatcher.java	/^    public SubclassMatcher(RootDoc root, Pattern pattern) {$/;"	m	class:SubclassMatcher
+SubclassMatcher	SubclassMatcher.java	/^public class SubclassMatcher implements ClassMatcher {$/;"	c
+UMLOptions	UMLOptions.java	/^public class UMLOptions {}/;"	c
+UmlGraph	UmlGraph.java	/^public class UmlGraph {$/;"	c
+UmlGraphDoc	UmlGraphDoc.java	/^public class UmlGraphDoc {$/;"	c
+VERSION	Version.java	/^class Version { public static String VERSION = "5.0";}$/;"	f	class:Version
+Version	Version.java	/^class Version { public static String VERSION = "5.0";}$/;"	c
+View	View.java	/^    public View(RootDoc root, ClassDoc c, OptionProvider provider) {$/;"	m	class:View
+View	View.java	/^public class View implements OptionProvider {$/;"	c
+WrappedClassDoc	WrappedClassDoc.java	/^    public WrappedClassDoc(ClassDoc wrapped) {$/;"	m	class:WrappedClassDoc
+WrappedClassDoc	WrappedClassDoc.java	/^public class WrappedClassDoc implements ClassDoc {$/;"	c
+WrappedRootDoc	WrappedRootDoc.java	/^    public WrappedRootDoc(RootDoc wrapped) {$/;"	m	class:WrappedRootDoc
+WrappedRootDoc	WrappedRootDoc.java	/^public class WrappedRootDoc implements RootDoc {$/;"	c
+addApiDocRoots	Options.java	/^    private void addApiDocRoots(String packageListUrl) {$/;"	m	class:Options	file:
+addRelation	ClassInfo.java	/^    public void addRelation(String dest, RelationType rt, RelationDirection d) {$/;"	m	class:ClassInfo
+addRelation	RelationPattern.java	/^    public void addRelation(RelationType relationType, RelationDirection direction) {$/;"	m	class:RelationPattern
+addToGraph	ContextMatcher.java	/^    private void addToGraph(ClassDoc cd) {$/;"	m	class:ContextMatcher	file:
+allPattern	Options.java	/^    private static final Pattern allPattern = Pattern.compile(".*");$/;"	f	class:Options	file:
+alterHtmlDocs	UmlGraphDoc.java	/^    private static void alterHtmlDocs(String outputFolder, String packageName, String className,$/;"	m	class:UmlGraphDoc	file:
+annotations	WrappedClassDoc.java	/^    public AnnotationDesc[] annotations() {$/;"	m	class:WrappedClassDoc
+apiDocMap	Options.java	/^    Map<Pattern, String> apiDocMap;$/;"	f	class:Options
+apiDocRoot	Options.java	/^    String apiDocRoot;$/;"	f	class:Options
+asAnnotationTypeDoc	WrappedClassDoc.java	/^    public AnnotationTypeDoc asAnnotationTypeDoc() {$/;"	m	class:WrappedClassDoc
+asClassDoc	WrappedClassDoc.java	/^    public ClassDoc asClassDoc() {$/;"	m	class:WrappedClassDoc
+asParameterizedType	WrappedClassDoc.java	/^    public ParameterizedType asParameterizedType() {$/;"	m	class:WrappedClassDoc
+asTypeVariable	WrappedClassDoc.java	/^    public TypeVariable asTypeVariable() {$/;"	m	class:WrappedClassDoc
+asWildcardType	WrappedClassDoc.java	/^    public WildcardType asWildcardType() {$/;"	m	class:WrappedClassDoc
+associationMap	ClassGraph.java	/^    public static Map<RelationType, String> associationMap = new HashMap<RelationType, String>();$/;"	f	class:ClassGraph
+attributes	ClassGraph.java	/^    private void attributes(Options opt, FieldDoc fd[]) {$/;"	m	class:ClassGraph	file:
+bgColor	Options.java	/^    String bgColor;$/;"	f	class:Options
+buildGraph	UmlGraph.java	/^    public static void buildGraph(RootDoc root, OptionProvider op, Doc contextDoc) throws IOException {$/;"	m	class:UmlGraph
+buildMatcher	View.java	/^    private ClassMatcher buildMatcher(String tagText) {$/;"	m	class:View	file:
+buildOptions	UmlGraph.java	/^    public static Options buildOptions(RootDoc root) {$/;"	m	class:UmlGraph
+buildRelativePath	ClassGraph.java	/^    protected static String buildRelativePath(String contextPackageName, String classPackageName) {$/;"	m	class:ClassGraph
+buildView	UmlGraph.java	/^    private static View buildView(RootDoc root, ClassDoc viewClass, OptionProvider provider) {$/;"	m	class:UmlGraph	file:
+buildViews	UmlGraph.java	/^    public static View[] buildViews(Options opt, RootDoc srcRootDoc, RootDoc viewRootDoc) {$/;"	m	class:UmlGraph
+cd	ClassGraph.java	/^	ClassDoc cd;$/;"	f	class:ClassGraph.FieldRelationInfo
+cd	ContextView.java	/^    private ClassDoc cd;$/;"	f	class:ContextView	file:
+centerOptions	ContextView.java	/^    private Options centerOptions;$/;"	f	class:ContextView	file:
+cg	ContextMatcher.java	/^    ClassGraphHack cg;$/;"	f	class:ContextMatcher
+classNamed	WrappedRootDoc.java	/^    public ClassDoc classNamed(String arg0) {$/;"	m	class:WrappedRootDoc
+classNumber	ClassInfo.java	/^    private static int classNumber;$/;"	f	class:ClassInfo	file:
+classToUrl	ClassGraph.java	/^    public String classToUrl(ClassDoc cd, boolean rootClass) {$/;"	m	class:ClassGraph
+classToUrl	ClassGraph.java	/^    public String classToUrl(String className) {$/;"	m	class:ClassGraph
+classes	WrappedRootDoc.java	/^    public ClassDoc[] classes() {$/;"	m	class:WrappedRootDoc
+classnames	ClassGraph.java	/^    protected Map<String, ClassInfo> classnames = new HashMap<String, ClassInfo>();$/;"	f	class:ClassGraph
+clone	Options.java	/^    public Object clone() {$/;"	m	class:Options
+close	ContextMatcher.java	/^	public void close() throws IOException {$/;"	m	class:ContextMatcher.DevNullWriter
+collPackages	Options.java	/^    private Vector<Pattern> collPackages;$/;"	f	class:Options	file:
+collectionClassDoc	ClassGraph.java	/^    protected ClassDoc collectionClassDoc;$/;"	f	class:ClassGraph
+commentText	WrappedClassDoc.java	/^    public String commentText() {$/;"	m	class:WrappedClassDoc
+commentText	WrappedRootDoc.java	/^    public String commentText() {$/;"	m	class:WrappedRootDoc
+compact	Options.java	/^    boolean compact;$/;"	f	class:Options
+compareTo	WrappedClassDoc.java	/^    public int compareTo(Object arg0) {$/;"	m	class:WrappedClassDoc
+compareTo	WrappedRootDoc.java	/^    public int compareTo(Object arg0) {$/;"	m	class:WrappedRootDoc
+constructors	WrappedClassDoc.java	/^    public ConstructorDoc[] constructors() {$/;"	m	class:WrappedClassDoc
+constructors	WrappedClassDoc.java	/^    public ConstructorDoc[] constructors(boolean arg0) {$/;"	m	class:WrappedClassDoc
+containingClass	WrappedClassDoc.java	/^    public ClassDoc containingClass() {$/;"	m	class:WrappedClassDoc
+containingPackage	WrappedClassDoc.java	/^    public PackageDoc containingPackage() {$/;"	m	class:WrappedClassDoc
+contextDoc	ClassGraph.java	/^    protected Doc contextDoc;$/;"	f	class:ClassGraph
+contextRelationPattern	Options.java	/^    RelationPattern contextRelationPattern;$/;"	f	class:Options
+defaultFont	Options.java	/^    private static String defaultFont;$/;"	f	class:Options	file:
+defaultItalicFont	Options.java	/^    private static String defaultItalicFont;$/;"	f	class:Options	file:
+definesSerializableFields	WrappedClassDoc.java	/^    public boolean definesSerializableFields() {$/;"	m	class:WrappedClassDoc
+dimension	WrappedClassDoc.java	/^    public String dimension() {$/;"	m	class:WrappedClassDoc
+directions	RelationPattern.java	/^    RelationDirection[] directions;$/;"	f	class:RelationPattern
+docletName	UmlGraph.java	/^    private static final String docletName = "org.umlgraph.doclet.UmlGraph";$/;"	f	class:UmlGraph	file:
+edgeColor	Options.java	/^    String edgeColor;$/;"	f	class:Options
+edgeFontColor	Options.java	/^    String edgeFontColor;$/;"	f	class:Options
+edgeFontName	Options.java	/^    String edgeFontName;$/;"	f	class:Options
+edgeFontSize	Options.java	/^    double edgeFontSize;$/;"	f	class:Options
+enumConstants	WrappedClassDoc.java	/^    public FieldDoc[] enumConstants() {$/;"	m	class:WrappedClassDoc
+epilogue	ClassGraph.java	/^    public void epilogue() {$/;"	m	class:ClassGraph
+escape	ClassGraph.java	/^    private String escape(String s) {$/;"	m	class:ClassGraph	file:
+externalTableEnd	ClassGraph.java	/^    private void externalTableEnd() {$/;"	m	class:ClassGraph	file:
+externalTableStart	ClassGraph.java	/^    private void externalTableStart(Options opt, String name, String url) {$/;"	m	class:ClassGraph	file:
+fields	WrappedClassDoc.java	/^    public FieldDoc[] fields() {$/;"	m	class:WrappedClassDoc
+fields	WrappedClassDoc.java	/^    public FieldDoc[] fields(boolean arg0) {$/;"	m	class:WrappedClassDoc
+findClass	WrappedClassDoc.java	/^    public ClassDoc findClass(String arg0) {$/;"	m	class:WrappedClassDoc
+findOutputPath	UmlGraphDoc.java	/^    private static String findOutputPath(String[][] options) {$/;"	m	class:UmlGraphDoc	file:
+findUMLOptions	UmlGraph.java	/^    private static ClassDoc findUMLOptions(RootDoc root) {$/;"	m	class:UmlGraph	file:
+findViews	Options.java	/^    boolean findViews;$/;"	f	class:Options
+firstSentenceTags	WrappedClassDoc.java	/^    public Tag[] firstSentenceTags() {$/;"	m	class:WrappedClassDoc
+firstSentenceTags	WrappedRootDoc.java	/^    public Tag[] firstSentenceTags() {$/;"	m	class:WrappedRootDoc
+fixApiDocRoot	Options.java	/^    private String fixApiDocRoot(String str) {$/;"	m	class:Options	file:
+flush	ContextMatcher.java	/^	public void flush() throws IOException {$/;"	m	class:ContextMatcher.DevNullWriter
+fontWrap	ClassGraph.java	/^    private String fontWrap(String text, Options opt, Font font) {$/;"	m	class:ClassGraph	file:
+fontWrap	ClassGraph.java	/^    private String fontWrap(String text, String fontName, double fontSize) {$/;"	m	class:ClassGraph	file:
+generateContextDiagrams	UmlGraphDoc.java	/^    private static void generateContextDiagrams(RootDoc root, Options opt, String outputFolder)$/;"	m	class:UmlGraphDoc	file:
+generatePackageDiagrams	UmlGraphDoc.java	/^    private static void generatePackageDiagrams(RootDoc root, Options opt, String outputFolder)$/;"	m	class:UmlGraphDoc	file:
+getApiDocRoot	Options.java	/^    public String getApiDocRoot(String className) {$/;"	m	class:Options
+getClassInfo	ClassGraph.java	/^    protected ClassInfo getClassInfo(String className) {$/;"	m	class:ClassGraph
+getDisplayName	ContextView.java	/^    public String getDisplayName() {$/;"	m	class:ContextView
+getDisplayName	OptionProvider.java	/^    public String getDisplayName();$/;"	m	interface:OptionProvider
+getDisplayName	Options.java	/^    public String getDisplayName() {$/;"	m	class:Options
+getDisplayName	PackageView.java	/^    public String getDisplayName() {$/;"	m	class:PackageView
+getDisplayName	View.java	/^    public String getDisplayName() {$/;"	m	class:View
+getFieldRelationInfo	ClassGraph.java	/^    private FieldRelationInfo getFieldRelationInfo(FieldDoc field) {$/;"	m	class:ClassGraph	file:
+getGlobalOptions	ContextView.java	/^    public Options getGlobalOptions() {$/;"	m	class:ContextView
+getGlobalOptions	OptionProvider.java	/^    public Options getGlobalOptions();$/;"	m	interface:OptionProvider
+getGlobalOptions	Options.java	/^    public Options getGlobalOptions() {$/;"	m	class:Options
+getGlobalOptions	PackageView.java	/^    public Options getGlobalOptions() {$/;"	m	class:PackageView
+getGlobalOptions	View.java	/^    public Options getGlobalOptions() {$/;"	m	class:View
+getInterfaceTypeArguments	ClassGraph.java	/^    private Type[] getInterfaceTypeArguments(ClassDoc iface, Type t) {$/;"	m	class:ClassGraph	file:
+getNodeName	ClassGraph.java	/^    private String getNodeName(ClassDoc c) {$/;"	m	class:ClassGraph	file:
+getNodeName	ClassGraph.java	/^    private String getNodeName(String c) {$/;"	m	class:ClassGraph	file:
+getOptionsFor	ContextView.java	/^    public Options getOptionsFor(ClassDoc cd) {$/;"	m	class:ContextView
+getOptionsFor	ContextView.java	/^    public Options getOptionsFor(String name) {$/;"	m	class:ContextView
+getOptionsFor	OptionProvider.java	/^    public Options getOptionsFor(ClassDoc cd);$/;"	m	interface:OptionProvider
+getOptionsFor	OptionProvider.java	/^    public Options getOptionsFor(String name);$/;"	m	interface:OptionProvider
+getOptionsFor	Options.java	/^    public Options getOptionsFor(ClassDoc cd) {$/;"	m	class:Options
+getOptionsFor	Options.java	/^    public Options getOptionsFor(String name) {$/;"	m	class:Options
+getOptionsFor	PackageView.java	/^    public Options getOptionsFor(ClassDoc cd) {$/;"	m	class:PackageView
+getOptionsFor	PackageView.java	/^    public Options getOptionsFor(String name) {$/;"	m	class:PackageView
+getOptionsFor	View.java	/^    public Options getOptionsFor(ClassDoc cd) {$/;"	m	class:View
+getOptionsFor	View.java	/^    public Options getOptionsFor(String name) {$/;"	m	class:View
+getRawCommentText	WrappedClassDoc.java	/^    public String getRawCommentText() {$/;"	m	class:WrappedClassDoc
+getRawCommentText	WrappedRootDoc.java	/^    public String getRawCommentText() {$/;"	m	class:WrappedRootDoc
+getRelation	ClassInfo.java	/^    public RelationPattern getRelation(String dest) {$/;"	m	class:ClassInfo
+globalOptions	ContextView.java	/^    private Options globalOptions;$/;"	f	class:ContextView	file:
+globalOptions	View.java	/^    List<String[]> globalOptions;$/;"	f	class:View
+graphvizShape	Options.java	/^    public static String graphvizShape(String s) {$/;"	m	class:Options
+guilClose	Options.java	/^    String guilClose = "&raquo;"; \/\/ "\\u00bb";$/;"	f	class:Options
+guilOpen	Options.java	/^    String guilOpen = "&laquo;"; \/\/ "\\u00ab";$/;"	f	class:Options
+guilWrap	ClassGraph.java	/^    private String guilWrap(Options opt, String str) {$/;"	m	class:ClassGraph	file:
+guillemize	ClassGraph.java	/^    private String guillemize(Options opt, String s) {$/;"	m	class:ClassGraph	file:
+hidden	ClassGraph.java	/^    private boolean hidden(ProgramElementDoc c) {$/;"	m	class:ClassGraph	file:
+hidden	ClassGraph.java	/^    private boolean hidden(String s) {$/;"	m	class:ClassGraph	file:
+hidden	ClassInfo.java	/^    boolean hidden;$/;"	f	class:ClassInfo
+hideOptions	ContextView.java	/^    private Options hideOptions;$/;"	f	class:ContextView	file:
+hidePatterns	Options.java	/^    Vector<Pattern> hidePatterns;$/;"	f	class:Options
+horizontal	Options.java	/^    boolean horizontal;$/;"	f	class:Options
+htmlNewline	ClassGraph.java	/^    private String htmlNewline(String s) {$/;"	m	class:ClassGraph	file:
+importedClasses	WrappedClassDoc.java	/^    public @Deprecated ClassDoc[] importedClasses() {$/;"	m	class:WrappedClassDoc
+importedPackages	WrappedClassDoc.java	/^    public @Deprecated PackageDoc[] importedPackages() {$/;"	m	class:WrappedClassDoc
+inferDepInPackage	Options.java	/^    boolean inferDepInPackage;$/;"	f	class:Options
+inferDependencies	Options.java	/^    boolean inferDependencies;$/;"	f	class:Options
+inferDependencyVisibility	Options.java	/^    Visibility inferDependencyVisibility;$/;"	f	class:Options
+inferRelationshipType	Options.java	/^    RelationType inferRelationshipType;$/;"	f	class:Options
+inferRelationships	Options.java	/^    boolean inferRelationships;$/;"	f	class:Options
+inlineTags	WrappedClassDoc.java	/^    public Tag[] inlineTags() {$/;"	m	class:WrappedClassDoc
+inlineTags	WrappedRootDoc.java	/^    public Tag[] inlineTags() {$/;"	m	class:WrappedRootDoc
+innerClasses	WrappedClassDoc.java	/^    public ClassDoc[] innerClasses() {$/;"	m	class:WrappedClassDoc
+innerClasses	WrappedClassDoc.java	/^    public ClassDoc[] innerClasses(boolean arg0) {$/;"	m	class:WrappedClassDoc
+innerTableEnd	ClassGraph.java	/^    private void innerTableEnd() {$/;"	m	class:ClassGraph	file:
+innerTableStart	ClassGraph.java	/^    private void innerTableStart() {$/;"	m	class:ClassGraph	file:
+insertClientSideMap	UmlGraphDoc.java	/^    private static void insertClientSideMap(File mapFile, BufferedWriter writer) throws IOException {$/;"	m	class:UmlGraphDoc	file:
+interfaceTypes	WrappedClassDoc.java	/^    public Type[] interfaceTypes() {$/;"	m	class:WrappedClassDoc
+interfaces	WrappedClassDoc.java	/^    public ClassDoc[] interfaces() {$/;"	m	class:WrappedClassDoc
+isAbstract	WrappedClassDoc.java	/^    public boolean isAbstract() {$/;"	m	class:WrappedClassDoc
+isAnnotationType	WrappedClassDoc.java	/^    public boolean isAnnotationType() {$/;"	m	class:WrappedClassDoc
+isAnnotationType	WrappedRootDoc.java	/^    public boolean isAnnotationType() {$/;"	m	class:WrappedRootDoc
+isAnnotationTypeElement	WrappedClassDoc.java	/^    public boolean isAnnotationTypeElement() {$/;"	m	class:WrappedClassDoc
+isAnnotationTypeElement	WrappedRootDoc.java	/^    public boolean isAnnotationTypeElement() {$/;"	m	class:WrappedRootDoc
+isClass	WrappedClassDoc.java	/^    public boolean isClass() {$/;"	m	class:WrappedClassDoc
+isClass	WrappedRootDoc.java	/^    public boolean isClass() {$/;"	m	class:WrappedRootDoc
+isConstructor	WrappedClassDoc.java	/^    public boolean isConstructor() {$/;"	m	class:WrappedClassDoc
+isConstructor	WrappedRootDoc.java	/^    public boolean isConstructor() {$/;"	m	class:WrappedRootDoc
+isEnum	WrappedClassDoc.java	/^    public boolean isEnum() {$/;"	m	class:WrappedClassDoc
+isEnum	WrappedRootDoc.java	/^    public boolean isEnum() {$/;"	m	class:WrappedRootDoc
+isEnumConstant	WrappedClassDoc.java	/^    public boolean isEnumConstant() {$/;"	m	class:WrappedClassDoc
+isEnumConstant	WrappedRootDoc.java	/^    public boolean isEnumConstant() {$/;"	m	class:WrappedRootDoc
+isError	WrappedClassDoc.java	/^    public boolean isError() {$/;"	m	class:WrappedClassDoc
+isError	WrappedRootDoc.java	/^    public boolean isError() {$/;"	m	class:WrappedRootDoc
+isException	WrappedClassDoc.java	/^    public boolean isException() {$/;"	m	class:WrappedClassDoc
+isException	WrappedRootDoc.java	/^    public boolean isException() {$/;"	m	class:WrappedRootDoc
+isExternalizable	WrappedClassDoc.java	/^    public boolean isExternalizable() {$/;"	m	class:WrappedClassDoc
+isField	WrappedClassDoc.java	/^    public boolean isField() {$/;"	m	class:WrappedClassDoc
+isField	WrappedRootDoc.java	/^    public boolean isField() {$/;"	m	class:WrappedRootDoc
+isFinal	WrappedClassDoc.java	/^    public boolean isFinal() {$/;"	m	class:WrappedClassDoc
+isIncluded	WrappedClassDoc.java	/^    public boolean isIncluded() {$/;"	m	class:WrappedClassDoc
+isIncluded	WrappedRootDoc.java	/^    public boolean isIncluded() {$/;"	m	class:WrappedRootDoc
+isInterface	WrappedClassDoc.java	/^    public boolean isInterface() {$/;"	m	class:WrappedClassDoc
+isInterface	WrappedRootDoc.java	/^    public boolean isInterface() {$/;"	m	class:WrappedRootDoc
+isMethod	WrappedClassDoc.java	/^    public boolean isMethod() {$/;"	m	class:WrappedClassDoc
+isMethod	WrappedRootDoc.java	/^    public boolean isMethod() {$/;"	m	class:WrappedRootDoc
+isOrdinaryClass	WrappedClassDoc.java	/^    public boolean isOrdinaryClass() {$/;"	m	class:WrappedClassDoc
+isOrdinaryClass	WrappedRootDoc.java	/^    public boolean isOrdinaryClass() {$/;"	m	class:WrappedRootDoc
+isPackagePrivate	WrappedClassDoc.java	/^    public boolean isPackagePrivate() {$/;"	m	class:WrappedClassDoc
+isPrimitive	WrappedClassDoc.java	/^    public boolean isPrimitive() {$/;"	m	class:WrappedClassDoc
+isPrivate	WrappedClassDoc.java	/^    public boolean isPrivate() {$/;"	m	class:WrappedClassDoc
+isProtected	WrappedClassDoc.java	/^    public boolean isProtected() {$/;"	m	class:WrappedClassDoc
+isPublic	WrappedClassDoc.java	/^    public boolean isPublic() {$/;"	m	class:WrappedClassDoc
+isSerializable	WrappedClassDoc.java	/^    public boolean isSerializable() {$/;"	m	class:WrappedClassDoc
+isStatic	WrappedClassDoc.java	/^    public boolean isStatic() {$/;"	m	class:WrappedClassDoc
+keepParentHide	ContextMatcher.java	/^    boolean keepParentHide;$/;"	f	class:ContextMatcher
+languageVersion	UmlGraph.java	/^    public static LanguageVersion languageVersion() {$/;"	m	class:UmlGraph
+languageVersion	UmlGraphDoc.java	/^    public static LanguageVersion languageVersion() {$/;"	m	class:UmlGraphDoc
+linePostfix	ClassGraph.java	/^    protected String linePostfix;$/;"	f	class:ClassGraph
+linePrefix	ClassGraph.java	/^    protected String linePrefix;$/;"	f	class:ClassGraph
+main	UmlGraph.java	/^    public static void main(String args[]) {$/;"	m	class:UmlGraph
+mapApiDocRoot	ClassGraph.java	/^    private String mapApiDocRoot(String className) {$/;"	m	class:ClassGraph	file:
+mapClassDoc	ClassGraph.java	/^    protected ClassDoc mapClassDoc;$/;"	f	class:ClassGraph
+matched	ContextMatcher.java	/^    List<ClassDoc> matched;$/;"	f	class:ContextMatcher
+matcher	ContextView.java	/^    private ContextMatcher matcher;$/;"	f	class:ContextView	file:
+matcher	PackageView.java	/^    private ClassMatcher matcher;$/;"	f	class:PackageView	file:
+matches	ClassMatcher.java	/^    public boolean matches(ClassDoc cd);$/;"	m	interface:ClassMatcher
+matches	ClassMatcher.java	/^    public boolean matches(String name);$/;"	m	interface:ClassMatcher
+matches	ContextMatcher.java	/^    public boolean matches(ClassDoc cd) {$/;"	m	class:ContextMatcher
+matches	ContextMatcher.java	/^    public boolean matches(String name) {$/;"	m	class:ContextMatcher
+matches	InterfaceMatcher.java	/^    public boolean matches(ClassDoc cd) {$/;"	m	class:InterfaceMatcher
+matches	InterfaceMatcher.java	/^    public boolean matches(String name) {$/;"	m	class:InterfaceMatcher
+matches	PackageMatcher.java	/^    public boolean matches(ClassDoc cd) {$/;"	m	class:PackageMatcher
+matches	PackageMatcher.java	/^    public boolean matches(String name) {$/;"	m	class:PackageMatcher
+matches	PatternMatcher.java	/^    public boolean matches(ClassDoc cd) {$/;"	m	class:PatternMatcher
+matches	PatternMatcher.java	/^    public boolean matches(String name) {$/;"	m	class:PatternMatcher
+matches	SubclassMatcher.java	/^    public boolean matches(ClassDoc cd) {$/;"	m	class:SubclassMatcher
+matches	SubclassMatcher.java	/^    public boolean matches(String name) {$/;"	m	class:SubclassMatcher
+matchesCollPackageExpression	Options.java	/^    public boolean matchesCollPackageExpression(String s) {$/;"	m	class:Options
+matchesHideExpression	Options.java	/^    public boolean matchesHideExpression(String s) {$/;"	m	class:Options
+matchesOne	RelationPattern.java	/^    public boolean matchesOne(RelationPattern relationPattern) {$/;"	m	class:RelationPattern
+methods	WrappedClassDoc.java	/^    public MethodDoc[] methods() {$/;"	m	class:WrappedClassDoc
+methods	WrappedClassDoc.java	/^    public MethodDoc[] methods(boolean arg0) {$/;"	m	class:WrappedClassDoc
+modifierSpecifier	WrappedClassDoc.java	/^    public int modifierSpecifier() {$/;"	m	class:WrappedClassDoc
+modifiers	WrappedClassDoc.java	/^    public String modifiers() {$/;"	m	class:WrappedClassDoc
+multiple	ClassGraph.java	/^	boolean multiple;$/;"	f	class:ClassGraph.FieldRelationInfo
+myGlobalOptions	ContextView.java	/^    private Options myGlobalOptions;$/;"	f	class:ContextView	file:
+name	ClassInfo.java	/^    String name;$/;"	f	class:ClassInfo
+name	WrappedClassDoc.java	/^    String name;$/;"	f	class:WrappedClassDoc
+name	WrappedClassDoc.java	/^    public String name() {$/;"	m	class:WrappedClassDoc
+name	WrappedRootDoc.java	/^    public String name() {$/;"	m	class:WrappedRootDoc
+newClassInfo	ClassGraph.java	/^    private ClassInfo newClassInfo(String className, boolean printed, boolean hidden) {$/;"	m	class:ClassGraph	file:
+nodeFillColor	Options.java	/^    String nodeFillColor;$/;"	f	class:Options
+nodeFontAbstractName	Options.java	/^    String nodeFontAbstractName;$/;"	f	class:Options
+nodeFontClassAbstractName	Options.java	/^    String nodeFontClassAbstractName;$/;"	f	class:Options
+nodeFontClassName	Options.java	/^    String nodeFontClassName;$/;"	f	class:Options
+nodeFontClassSize	Options.java	/^    double nodeFontClassSize;$/;"	f	class:Options
+nodeFontColor	Options.java	/^    String nodeFontColor;$/;"	f	class:Options
+nodeFontName	Options.java	/^    String nodeFontName;$/;"	f	class:Options
+nodeFontPackageName	Options.java	/^    String nodeFontPackageName;$/;"	f	class:Options
+nodeFontPackageSize	Options.java	/^    double nodeFontPackageSize;$/;"	f	class:Options
+nodeFontSize	Options.java	/^    double nodeFontSize;$/;"	f	class:Options
+nodeFontTagName	Options.java	/^    String nodeFontTagName;$/;"	f	class:Options
+nodeFontTagSize	Options.java	/^    double nodeFontTagSize;$/;"	f	class:Options
+nodePrinted	ClassInfo.java	/^    boolean nodePrinted;$/;"	f	class:ClassInfo
+nodeProperties	ClassGraph.java	/^    private void nodeProperties(Options opt) {$/;"	m	class:ClassGraph	file:
+operations	ClassGraph.java	/^    private boolean operations(Options opt, ConstructorDoc m[]) {$/;"	m	class:ClassGraph	file:
+operations	ClassGraph.java	/^    private boolean operations(Options opt, MethodDoc m[]) {$/;"	m	class:ClassGraph	file:
+opt	ContextMatcher.java	/^    Options opt;$/;"	f	class:ContextMatcher
+optionLength	Options.java	/^    public static int optionLength(String option) {$/;"	m	class:Options
+optionLength	UmlGraph.java	/^    public static int optionLength(String option) {$/;"	m	class:UmlGraph
+optionLength	UmlGraphDoc.java	/^    public static int optionLength(String option) {$/;"	m	class:UmlGraphDoc
+optionOverrides	View.java	/^    Map<ClassMatcher, List<String[]>> optionOverrides = new LinkedHashMap<ClassMatcher, List<String[]>>();$/;"	f	class:View
+optionProvider	ClassGraph.java	/^    protected OptionProvider optionProvider;$/;"	f	class:ClassGraph
+options	WrappedRootDoc.java	/^    public String[][] options() {$/;"	m	class:WrappedRootDoc
+org.umlgraph.doclet	ClassGraph.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	ClassInfo.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	ClassMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	ContextMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	ContextView.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	InterfaceMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	OptionProvider.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	Options.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	PackageMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	PackageView.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	PatternMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	RelationDirection.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	RelationPattern.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	RelationType.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	StringUtil.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	SubclassMatcher.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	UMLOptions.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	UmlGraph.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	UmlGraphDoc.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	Version.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	View.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	Visibility.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	WrappedClassDoc.java	/^package org.umlgraph.doclet;$/;"	p
+org.umlgraph.doclet	WrappedRootDoc.java	/^package org.umlgraph.doclet;$/;"	p
+outputDirectory	Options.java	/^    public String outputDirectory;$/;"	f	class:Options
+outputEncoding	Options.java	/^    String outputEncoding;$/;"	f	class:Options
+outputFileName	Options.java	/^    public String outputFileName;$/;"	f	class:Options
+outputPath	PackageView.java	/^    private String outputPath;$/;"	f	class:PackageView	file:
+overrideForClass	ContextView.java	/^    public void overrideForClass(Options opt, ClassDoc cd) {$/;"	m	class:ContextView
+overrideForClass	ContextView.java	/^    public void overrideForClass(Options opt, String className) {$/;"	m	class:ContextView
+overrideForClass	OptionProvider.java	/^    public void overrideForClass(Options opt, ClassDoc cd);$/;"	m	interface:OptionProvider
+overrideForClass	OptionProvider.java	/^    public void overrideForClass(Options opt, String className);$/;"	m	interface:OptionProvider
+overrideForClass	Options.java	/^    public void overrideForClass(Options opt, ClassDoc cd) {$/;"	m	class:Options
+overrideForClass	Options.java	/^    public void overrideForClass(Options opt, String className) {$/;"	m	class:Options
+overrideForClass	PackageView.java	/^    public void overrideForClass(Options opt, ClassDoc cd) {$/;"	m	class:PackageView
+overrideForClass	PackageView.java	/^    public void overrideForClass(Options opt, String className) {$/;"	m	class:PackageView
+overrideForClass	View.java	/^    public void overrideForClass(Options opt, ClassDoc cd) {$/;"	m	class:View
+overrideForClass	View.java	/^    public void overrideForClass(Options opt, String className) {$/;"	m	class:View
+packageDoc	PackageMatcher.java	/^    protected PackageDoc packageDoc;$/;"	f	class:PackageMatcher
+packageNamed	WrappedRootDoc.java	/^    public PackageDoc packageNamed(String arg0) {$/;"	m	class:WrappedRootDoc
+packageOptions	ContextView.java	/^    private Options packageOptions;$/;"	f	class:ContextView	file:
+parameter	ClassGraph.java	/^    private String parameter(Options opt, Parameter p[]) {$/;"	m	class:ClassGraph	file:
+parent	PackageView.java	/^    private OptionProvider parent;$/;"	f	class:PackageView	file:
+pattern	ContextMatcher.java	/^    Pattern pattern;$/;"	f	class:ContextMatcher
+pattern	InterfaceMatcher.java	/^    protected Pattern pattern;$/;"	f	class:InterfaceMatcher
+pattern	PatternMatcher.java	/^    Pattern pattern;$/;"	f	class:PatternMatcher
+pattern	SubclassMatcher.java	/^    protected Pattern pattern;$/;"	f	class:SubclassMatcher
+pd	PackageView.java	/^    private PackageDoc pd;$/;"	f	class:PackageView	file:
+position	WrappedClassDoc.java	/^    public SourcePosition position() {$/;"	m	class:WrappedClassDoc
+position	WrappedRootDoc.java	/^    public SourcePosition position() {$/;"	m	class:WrappedRootDoc
+postfixPackage	Options.java	/^    boolean postfixPackage;$/;"	f	class:Options
+printClass	ClassGraph.java	/^    public String printClass(ClassDoc c, boolean rootClass) {$/;"	m	class:ClassGraph
+printError	WrappedRootDoc.java	/^    public void printError(SourcePosition arg0, String arg1) {$/;"	m	class:WrappedRootDoc
+printError	WrappedRootDoc.java	/^    public void printError(String arg0) {$/;"	m	class:WrappedRootDoc
+printExtraClasses	ClassGraph.java	/^    public void printExtraClasses(RootDoc root) {$/;"	m	class:ClassGraph
+printInferredDependencies	ClassGraph.java	/^    public void printInferredDependencies(ClassDoc c) {$/;"	m	class:ClassGraph
+printInferredDependencies	ClassGraph.java	/^    public void printInferredDependencies(ClassDoc[] classes) {$/;"	m	class:ClassGraph
+printInferredRelations	ClassGraph.java	/^    public void printInferredRelations(ClassDoc c) {$/;"	m	class:ClassGraph
+printInferredRelations	ClassGraph.java	/^    public void printInferredRelations(ClassDoc[] classes) {$/;"	m	class:ClassGraph
+printNotice	WrappedRootDoc.java	/^    public void printNotice(SourcePosition arg0, String arg1) {$/;"	m	class:WrappedRootDoc
+printNotice	WrappedRootDoc.java	/^    public void printNotice(String arg0) {$/;"	m	class:WrappedRootDoc
+printRelations	ClassGraph.java	/^    public void printRelations(ClassDoc c) {$/;"	m	class:ClassGraph
+printWarning	WrappedRootDoc.java	/^    public void printWarning(SourcePosition arg0, String arg1) {$/;"	m	class:WrappedRootDoc
+printWarning	WrappedRootDoc.java	/^    public void printWarning(String arg0) {$/;"	m	class:WrappedRootDoc
+programName	UmlGraph.java	/^    private static final String programName = "UmlGraph";$/;"	f	class:UmlGraph	file:
+prologue	ClassGraph.java	/^    public void prologue() throws IOException {$/;"	m	class:ClassGraph
+prologue	ContextMatcher.java	/^	public void prologue() throws IOException {$/;"	m	class:ContextMatcher.ClassGraphHack
+provider	View.java	/^    OptionProvider provider;$/;"	f	class:View
+qualifiedName	ClassGraph.java	/^    private String qualifiedName(Options opt, String r) {$/;"	m	class:ClassGraph	file:
+qualifiedName	WrappedClassDoc.java	/^    public String qualifiedName() {$/;"	m	class:WrappedClassDoc
+qualifiedTypeName	WrappedClassDoc.java	/^    public String qualifiedTypeName() {$/;"	m	class:WrappedClassDoc
+relatedClasses	ClassInfo.java	/^    Map<String, RelationPattern> relatedClasses = new HashMap<String, RelationPattern>();$/;"	f	class:ClassInfo
+relation	ClassGraph.java	/^    private void relation(Options opt, RelationType rt, ClassDoc from, String fromName) {$/;"	m	class:ClassGraph	file:
+relation	ClassGraph.java	/^    private void relation(Options opt, RelationType rt, String from, String fromName, $/;"	m	class:ClassGraph	file:
+relativeLinksForSourcePackages	Options.java	/^    boolean relativeLinksForSourcePackages;$/;"	f	class:Options
+removeTemplate	ClassGraph.java	/^    private String removeTemplate(String name) {$/;"	m	class:ClassGraph	file:
+reset	ClassInfo.java	/^    public static void reset() {$/;"	m	class:ClassInfo
+root	ContextMatcher.java	/^    RootDoc root;$/;"	f	class:ContextMatcher
+root	InterfaceMatcher.java	/^    protected RootDoc root;$/;"	f	class:InterfaceMatcher
+root	SubclassMatcher.java	/^    protected RootDoc root;$/;"	f	class:SubclassMatcher
+root	View.java	/^    RootDoc root;$/;"	f	class:View
+rootClasses	ClassGraph.java	/^    protected Set<String> rootClasses;$/;"	f	class:ClassGraph
+runGraphviz	UmlGraphDoc.java	/^    private static void runGraphviz(String outputFolder, String packageName, String name, RootDoc root) {$/;"	m	class:UmlGraphDoc	file:
+seeTags	WrappedClassDoc.java	/^    public SeeTag[] seeTags() {$/;"	m	class:WrappedClassDoc
+seeTags	WrappedRootDoc.java	/^    public SeeTag[] seeTags() {$/;"	m	class:WrappedRootDoc
+serializableFields	WrappedClassDoc.java	/^    public FieldDoc[] serializableFields() {$/;"	m	class:WrappedClassDoc
+serializationMethods	WrappedClassDoc.java	/^    public MethodDoc[] serializationMethods() {$/;"	m	class:WrappedClassDoc
+setAll	Options.java	/^    public void setAll() {$/;"	m	class:Options
+setApiDocMapFile	Options.java	/^    void setApiDocMapFile(String apiDocMapFileName) {$/;"	m	class:Options
+setContextCenter	ContextMatcher.java	/^    public void setContextCenter(Pattern pattern) {$/;"	m	class:ContextMatcher
+setContextCenter	ContextView.java	/^    public void setContextCenter(ClassDoc contextCenter) {$/;"	m	class:ContextView
+setOption	Options.java	/^    void setOption(String[] opt) {$/;"	m	class:Options
+setOptions	Options.java	/^    public void setOptions(ClassDoc p) {$/;"	m	class:Options
+setOptions	Options.java	/^    public void setOptions(String[][] options) {$/;"	m	class:Options
+setRawCommentText	WrappedClassDoc.java	/^    public void setRawCommentText(String arg0) {$/;"	m	class:WrappedClassDoc
+setRawCommentText	WrappedRootDoc.java	/^    public void setRawCommentText(String arg0) {$/;"	m	class:WrappedRootDoc
+shape	Options.java	/^    String shape;$/;"	f	class:Options
+showAttributes	Options.java	/^    boolean showAttributes;$/;"	f	class:Options
+showComment	Options.java	/^    boolean showComment;$/;"	f	class:Options
+showConstructors	Options.java	/^    boolean showConstructors;$/;"	f	class:Options
+showEnumConstants	Options.java	/^    boolean showEnumConstants;$/;"	f	class:Options
+showEnumerations	Options.java	/^    boolean showEnumerations;$/;"	f	class:Options
+showOperations	Options.java	/^    boolean showOperations;$/;"	f	class:Options
+showQualified	Options.java	/^    boolean showQualified;$/;"	f	class:Options
+showType	Options.java	/^    boolean showType;$/;"	f	class:Options
+showVisibility	Options.java	/^    boolean showVisibility;$/;"	f	class:Options
+simpleTypeName	WrappedClassDoc.java	/^    public String simpleTypeName() {$/;"	m	class:WrappedClassDoc
+specifiedClasses	WrappedRootDoc.java	/^    public ClassDoc[] specifiedClasses() {$/;"	m	class:WrappedRootDoc
+specifiedPackages	WrappedRootDoc.java	/^    public PackageDoc[] specifiedPackages() {$/;"	m	class:WrappedRootDoc
+start	UmlGraph.java	/^    public static boolean start(RootDoc root) throws IOException {$/;"	m	class:UmlGraph
+start	UmlGraphDoc.java	/^    public static boolean start(RootDoc root) {$/;"	m	class:UmlGraphDoc
+stereotype	ClassGraph.java	/^    private void stereotype(Options opt, Doc c, Align align) {$/;"	m	class:ClassGraph	file:
+strictMatching	Options.java	/^    boolean strictMatching;    $/;"	f	class:Options
+subclassOf	WrappedClassDoc.java	/^    public boolean subclassOf(ClassDoc arg0) {$/;"	m	class:WrappedClassDoc
+superclass	WrappedClassDoc.java	/^    public ClassDoc superclass() {$/;"	m	class:WrappedClassDoc
+superclassType	WrappedClassDoc.java	/^    public Type superclassType() {$/;"	m	class:WrappedClassDoc
+tableLine	ClassGraph.java	/^    private void tableLine(Align align, String text) {$/;"	m	class:ClassGraph	file:
+tableLine	ClassGraph.java	/^    private void tableLine(Align align, String text, Options opt, Font font) {$/;"	m	class:ClassGraph	file:
+tags	WrappedClassDoc.java	/^    Tag[] tags;$/;"	f	class:WrappedClassDoc
+tags	WrappedClassDoc.java	/^    public Tag[] tags() {$/;"	m	class:WrappedClassDoc
+tags	WrappedClassDoc.java	/^    public Tag[] tags(String arg0) {$/;"	m	class:WrappedClassDoc
+tags	WrappedRootDoc.java	/^    public Tag[] tags() {$/;"	m	class:WrappedRootDoc
+tags	WrappedRootDoc.java	/^    public Tag[] tags(String arg0) {$/;"	m	class:WrappedRootDoc
+tagvalue	ClassGraph.java	/^    private void tagvalue(Options opt, Doc c) {$/;"	m	class:ClassGraph	file:
+toString	Options.java	/^    public String toString() {$/;"	m	class:Options
+toString	WrappedClassDoc.java	/^    String toString;$/;"	f	class:WrappedClassDoc
+toString	WrappedClassDoc.java	/^    public String toString() {$/;"	m	class:WrappedClassDoc
+tokenize	StringUtil.java	/^    public static String[] tokenize(String s) {$/;"	m	class:StringUtil
+type	ClassGraph.java	/^    private String type(Options opt, Type t) {$/;"	m	class:ClassGraph	file:
+typeAnnotation	ClassGraph.java	/^    private String typeAnnotation(Options opt, Type t) {$/;"	m	class:ClassGraph	file:
+typeName	WrappedClassDoc.java	/^    public String typeName() {$/;"	m	class:WrappedClassDoc
+typeParamTags	WrappedClassDoc.java	/^    public ParamTag[] typeParamTags() {$/;"	m	class:WrappedClassDoc
+typeParameters	ClassGraph.java	/^    private String typeParameters(Options opt, ParameterizedType t) {$/;"	m	class:ClassGraph	file:
+typeParameters	WrappedClassDoc.java	/^    public TypeVariable[] typeParameters() {$/;"	m	class:WrappedClassDoc
+useGuillemot	Options.java	/^    boolean useGuillemot;$/;"	f	class:Options
+useImports	Options.java	/^    boolean useImports;$/;"	f	class:Options
+viewDoc	View.java	/^    ClassDoc viewDoc;$/;"	f	class:View
+viewName	Options.java	/^    String viewName;$/;"	f	class:Options
+visibility	ClassGraph.java	/^    private String visibility(Options opt, ProgramElementDoc e) {$/;"	m	class:ClassGraph	file:
+visited	ContextMatcher.java	/^    Set<String> visited = new HashSet<String>();$/;"	f	class:ContextMatcher
+w	ClassGraph.java	/^    protected PrintWriter w;$/;"	f	class:ClassGraph
+wrapped	WrappedClassDoc.java	/^    ClassDoc wrapped;$/;"	f	class:WrappedClassDoc
+wrapped	WrappedRootDoc.java	/^    RootDoc wrapped;$/;"	f	class:WrappedRootDoc
+wrappedClassDocs	WrappedRootDoc.java	/^    WrappedClassDoc[] wrappedClassDocs;$/;"	f	class:WrappedRootDoc
+write	ContextMatcher.java	/^	public void write(char[] cbuf, int off, int len) throws IOException {$/;"	m	class:ContextMatcher.DevNullWriter

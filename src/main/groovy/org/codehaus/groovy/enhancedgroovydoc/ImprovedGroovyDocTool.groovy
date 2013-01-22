@@ -1,24 +1,9 @@
 package org.codehaus.groovy.enhancedgroovydoc
 
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
-
-
-
-import antlr.RecognitionException 
-import antlr.TokenStreamException 
-import org.codehaus.groovy.groovydoc.GroovyRootDoc 
-import org.codehaus.groovy.tools.groovydoc.GroovyDocTemplateEngine 
-import org.codehaus.groovy.tools.groovydoc.GroovyDocTool;
-import org.codehaus.groovy.tools.groovydoc.GroovyDocWriter 
-import org.codehaus.groovy.tools.groovydoc.GroovyRootDocBuilder 
-import org.codehaus.groovy.tools.groovydoc.LinkArgument 
-import org.codehaus.groovy.tools.groovydoc.OutputTool 
-import org.codehaus.groovy.tools.groovydoc.ResourceManager 
+import groovyjarjarantlr.RecognitionException
+import groovyjarjarantlr.TokenStreamException
+import org.codehaus.groovy.groovydoc.GroovyRootDoc
+import org.codehaus.groovy.tools.groovydoc.*
 
 class ImprovedGroovyDocTool extends GroovyDocTool {
 

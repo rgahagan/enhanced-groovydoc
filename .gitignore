@@ -6,3 +6,6 @@
 *.iws
 target/
 *.bak
+build
+.gradle
+.idea

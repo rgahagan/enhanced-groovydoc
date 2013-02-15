@@ -3,7 +3,7 @@ apply plugin: 'idea'
 apply plugin: 'groovy'
 
 group 'org.codehaus.groovy'
-version = '0.6-SNAPSHOT'
+version = '0.6'
 
 repositories {
     mavenLocal()

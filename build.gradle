@@ -1,0 +1,23 @@
+apply plugin: 'maven'
+apply plugin: 'idea'
+apply plugin: 'groovy'
+
+group 'org.codehaus.groovy'
+version = '0.6-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.1.1'
+    compile 'commons-cli:commons-cli:1.2'
+    compile 'org.apache.ant:ant:1.7.0'
+    compile 'org.freehep:freehep-graphicsio:2.2.1'
+    compile 'org.freehep:freehep-graphicsio-emf:2.1.2' 
+    compile 'org.freehep:freehep-graphicsio-pdf:2.1.2' 
+    compile 'org.freehep:freehep-graphicsio-ps:2.1.2' 
+    compile 'org.freehep:freehep-graphicsio-svg:2.1.2' 
+    compile 'org.freehep:freehep-graphicsio-swf:2.1.2' 
+}

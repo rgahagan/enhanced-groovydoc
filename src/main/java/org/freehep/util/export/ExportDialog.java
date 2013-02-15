@@ -26,8 +26,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import org.freehep.swing.ErrorDialog;
-import org.freehep.swing.layout.TableLayout;
+import org.freehep.graphicsbase.swing.ErrorDialog;
+import org.freehep.graphicsbase.swing.layout.TableLayout;
+import org.freehep.graphicsbase.util.export.ExportFileType;
+import org.freehep.graphicsbase.util.export.ExportFileTypeGroups;
 
 /**
  * An "Export" dialog for saving components as graphic files.
